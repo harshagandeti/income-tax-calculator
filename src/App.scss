@@ -1,0 +1,82 @@
+.App {
+    background-color: rgba(0, 0, 0, 0.84);
+    min-width: 100vw;
+    height: 200vh;
+    margin: 0;
+    padding: 0;
+
+    .Nav-Section {
+        height: 100px;
+        width: 100%;
+        padding: 10px;
+        background-color: rgba(113, 113, 113, 0.233);
+        border-bottom: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .Nav-Logo {
+            width: 40%;
+            padding: 05px 20px;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            display: flex;
+            align-items: center;
+
+            .Img-Logo {
+                color: orangered;
+
+                img {
+                    height: 100px;
+                }
+            }
+
+            .Text-Logo {
+                padding-left: 10px;
+
+                h1 {
+                    color: rgb(0, 183, 255);
+                    font-weight: 500;
+                    font-size: 44px;
+                    margin: 0;
+                }
+
+                h4 {
+                    color: orangered;
+                    margin: 0;
+                    font-weight: 600;
+                    font-size: 30px;
+                    letter-spacing: 4px;
+                }
+            }
+
+        }
+
+        .Nav-Links {
+            height: 100;
+            width: 50%;
+
+            ul {
+                width: 100%;
+                list-style-type: none;
+                font-size: 26px;
+                font-family: sans-serif;
+                font-weight: 400;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                color: rgb(0, 183, 255);
+
+                li {
+                    cursor: pointer;
+                    text-transform: uppercase;
+
+                    &:hover {
+                        color: orangered;
+                    }
+                }
+
+            }
+        }
+    }
+}
