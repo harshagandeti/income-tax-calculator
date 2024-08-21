@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/income-tax-calculator.github.io/static/css/main.6ed0779d.css",
+    "main.js": "/income-tax-calculator.github.io/static/js/main.9a2ab962.js",
+    "static/media/tax.png": "/income-tax-calculator.github.io/static/media/tax.d80f155edf756b32cdbb.png",
+    "index.html": "/income-tax-calculator.github.io/index.html",
+    "main.6ed0779d.css.map": "/income-tax-calculator.github.io/static/css/main.6ed0779d.css.map",
+    "main.9a2ab962.js.map": "/income-tax-calculator.github.io/static/js/main.9a2ab962.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ed0779d.css",
+    "static/js/main.9a2ab962.js"
+  ]
+}
